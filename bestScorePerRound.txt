@@ -1,0 +1,7 @@
+Steve,green.png,normal.png,open.png,38
+just a guy,yellow.png,winking.png,smiling.png,29
+Otto,red.png,closed.png,open.png,20
+Thornton,yellow.png,long.png,smiling.png,16
+Craig,yellow.png,normal.png,straight.png,15
+Bird,green.png,rolling.png,straight.png,12
+test,red.png,closed.png,open.png,8

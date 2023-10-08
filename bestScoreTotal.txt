@@ -1,0 +1,4 @@
+Otto,red.png,closed.png,open.png,20
+Thornton,yellow.png,long.png,smiling.png,16
+Bird,green.png,rolling.png,straight.png,12
+test,red.png,closed.png,open.png,8

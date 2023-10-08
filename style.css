@@ -1,0 +1,60 @@
+.WelcomeMessage{
+	margin-top: 1cm;
+	font-size: 80px;
+	color: #fff;
+	text-align: center;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	-moz-animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+	from {
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+	}
+	to {
+		text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+	}
+}
+
+#main {
+	background-image: url("arcade-unsplash.jpg");	
+	background-color: #000; /* if image can't be found */
+	background-position: center; 
+ 	background-repeat: no-repeat; 
+ 	background-size: cover;
+	position: absolute;
+	min-width: 100%;
+ 	min-height: 100%;
+}
+
+.registerOrPlay {
+	display: block;
+	border: none;
+	color: white;	
+	font-size: 25px;
+	text-align: center;
+	text-decoration: none;
+	animation: glowing 1s ease-in-out infinite alternate;	
+	margin: 20 auto;
+	transition: 0.5s;
+	font-weight: bold;
+}
+
+.registerOrPlay:hover{
+	font-weight: bold;
+	font-size: 28px;
+}
+
+
+@keyframes glowing {
+	from {
+		color: #d49100;
+		/*text-shadow: 0 0 90px #d49100;*/
+	}
+	to {
+		color: #fcc600;
+		/*text-shadow: 0 0 150px #fcc600;*/
+	}
+	
+}
